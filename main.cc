@@ -1,4 +1,3 @@
-#include "HardwareSerial.h"
 #include <Arduino.h>
 
 void setup(){
@@ -8,5 +7,7 @@ void setup(){
 
 void loop(){
     delay(1000);
-    Serial.println("Whatup Slime");
+    digitalWrite(8, HIGH);
+    delay(1000);
+    digitalWrite(8, LOW);
 }

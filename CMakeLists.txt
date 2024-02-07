@@ -1,5 +1,6 @@
 set(CMAKE_TOOLCHAIN_FILE ~/embedded/Arduino-CMake-Toolchain/Arduino-toolchain.cmake)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(SERIAL_PORT /dev/ttyACM0)
 
 cmake_minimum_required(VERSION 3.0.0)
 
